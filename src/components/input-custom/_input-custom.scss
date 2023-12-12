@@ -1,0 +1,60 @@
+.input-custom {
+
+  &__label {
+    position: relative;
+    display: flex;
+    column-gap: 10px;
+    padding: 0 10px;
+    width: 100%;
+    border: 1px solid $color-grey;
+    border-radius: $radius-basic;
+
+    .currency {
+      position: relative;
+      bottom: -3px;
+      margin-right: 10px;
+
+      &__name {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__input {
+    @include input-reset;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid $color-grey;
+  }
+
+  ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-size: 18px;
+    color: $color-grey;
+  }
+
+  :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: $color-grey;
+    opacity: 1;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color-grey;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 18px;
+    color: $color-grey;
+  }
+
+  ::placeholder {
+    /* Most modern browsers support this now. */
+    font-size: 18px;
+    color: $color-grey;
+  }
+
+}

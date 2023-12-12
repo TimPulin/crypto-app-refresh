@@ -1,13 +1,11 @@
-import React from 'react';
+import DrugWalletZone from './components/drug-wallet-zone/DrugWalletZone';
+import Header from './components/Header';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        header
-      </header>
+    <div className="container">
+      <Header />
+      <DrugWalletZone />
     </div>
   );
 }
-
-export default App;

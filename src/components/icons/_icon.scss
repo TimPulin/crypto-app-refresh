@@ -1,0 +1,8 @@
+.icon {
+  &__svg {
+    $side-size: 25px;
+    width: $side-size;
+    height: $side-size;
+    fill: $color-secondary;
+  }
+}

@@ -1,0 +1,35 @@
+.button {
+  @include btn-reset;
+  padding: 10px 30px;
+}
+
+.button--primary {
+  background-color: $color-secondary;
+  border-radius: $radius-basic;
+  color: #fff;
+}
+
+.button--poor {
+  padding: 5px;
+}
+
+.button--icon {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 5px;
+  color: $color-secondary;
+}
+
+.button--disabled {
+  background-color: $color-disabled;
+}
+
+.button--clear {
+  color: $color-disabled;
+}
+
+.button--remove {
+  font-size: 10px;
+  color: $color-warning;
+}

@@ -1,0 +1,28 @@
+.drug-wallet-zone {
+  position: relative;
+  transform: background-color .4s ease;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 1px solid inset;
+    border-radius: 3px;
+    backdrop-filter: blur(1px);
+    z-index: -1000;
+  }
+}
+
+.drug-wallet-zone--active {
+  &::after {
+    border: 1px solid greenyellow;
+    z-index: 1000;
+  }
+}
+
+.drug-wallet-zone--error {
+  &::after {
+    border: 1px solid red;
+    z-index: 1000;
+  }
+}

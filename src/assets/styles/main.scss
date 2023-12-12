@@ -1,0 +1,17 @@
+@import './utils/bootstrap-reboot';
+@import './mixins/reset-mixins';
+
+@import './utils/vars';
+@import './common';
+@import './components/header';
+@import './components/currency';
+@import './components/footer';
+
+@import './components/button';
+@import '../../components/input-custom/input-custom.scss';
+@import '../../components/form/form.scss';
+@import '../../components/wallet/wallet.scss';
+
+@import '../../components/drug-wallet-zone/drug-wallet-zone.scss';
+
+@import '../../components/icons/icon.scss';
